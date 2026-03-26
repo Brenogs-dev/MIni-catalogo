@@ -10,10 +10,10 @@ export default function ProfileScreen() {
         style={styles.avatar}
       />
 
-      <Text style={styles.name}>Paula Gomes</Text>
+      <Text style={styles.name}>Eliza Soares</Text>
       <Text style={styles.role}>Cliente Premium</Text>
 
-      <Text style={styles.info}>📧 paula.gomes@email.com</Text>
+      <Text style={styles.info}>📧 eliza.soares@email.com</Text>
       <Text style={styles.info}>📞 (11) 98765-4321</Text>
       <Text style={styles.info}>📍 São Paulo, SP</Text>
 

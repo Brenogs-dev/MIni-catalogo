@@ -12,7 +12,7 @@ export default function AppNavigator() {
     <NavigationContainer>
       <Tab.Navigator
         screenOptions={({ route }) => ({
-          headerShown: false, // ❌ remove título duplicado
+          headerShown: false,
 
           tabBarActiveTintColor: '#2F6BFF',
           tabBarInactiveTintColor: '#999',
@@ -29,9 +29,9 @@ export default function AppNavigator() {
             let iconName: any;
 
             if (route.name === 'Produtos') {
-              iconName = 'cube-outline'; // 📦
+              iconName = 'cube-outline'; 
             } else if (route.name === 'Perfil') {
-              iconName = 'person-outline'; // 👤
+              iconName = 'person-outline'; 
             }
 
             return <Ionicons name={iconName} size={size} color={color} />;
